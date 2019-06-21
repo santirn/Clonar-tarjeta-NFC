@@ -24,7 +24,7 @@ UID (NFCID1): ab  c9  67  00
 SAK (SEL_RES): 08 
 ````
 
-Ahora haremos un dump a un archivo .dmp que contendra todos los del sector A y B y el codigo en hexadecimal de la tarjeta. 
+Ahora haremos un dump a un archivo .dmp que contendrá todos los del sector A y B y el codigo en hexadecimal de la tarjeta. 
 
 Este archivo contendrá la información de la tarjeta con los 10 viajes.
 ````console 
@@ -189,3 +189,4 @@ Cuando compremos la tarjeta la colocamos en la parte trasera de nuestro smartpho
 Simplemente le damos a "Read  Tag" para crear el dumpeo con la información de la tarjeta .
 
 Y cuando queramos escribir ese dumpeo en la tarjeta sin viajes le daríamos a "Write tag".
+
