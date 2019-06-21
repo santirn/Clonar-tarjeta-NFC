@@ -7,4 +7,4 @@
 ###### SITUACIÓN: adquirimos una tarjeta de transporte y la recargamos con los viajes deseados. Para este PoC adquirimos la tarjeta del metro Valencia con 10 viajes en zona AB.  
 
 ###### Necesitamos un lector, escritor NFC como [este](https://www.amazon.es/dp/B07MVBHR29/ref=cm_sw_r_tw_dp_U_x_K8ndDbXRKSA18)
-![lectorNFC]()
+![lectorNFC](https://github.com/santirn/Clonar-tarjeta-NFC/blob/master/1.jpg)
