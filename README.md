@@ -157,7 +157,7 @@ Block 01, type A, key a0a1a2a3a4a5 :d2  00  00  00  00  00  00  00  00  00  00  
 Block 00, type A, key a0a1a2a3a4a5 :8e  db  1a  2a  65  88  04  00  48  85  14  90  59  80  01  11
 ````
 
-De esta manera podemos gastar los viajes que queramos y cuando nos apetezca solo tendremos que volver a escribir en la tarjeta original el dumpeo con los 10 viajes para recargara.
+De esta manera podemos gastar los viajes que queramos y cuando nos apetezca solo tendremos que volver a escribir en la tarjeta original el dumpeo con los 10 viajes para recargarla.
 
 Para ello usaremos nfc-mfclassic:
 ````console
@@ -174,8 +174,18 @@ x............................................................|
 Done, 62 of 64 blocks written.
 ````
 
-# Bien, pues si esto ha sido fácil, hay otro método mas fácil aun.
+# Bien, pues aun hay un metodo más facil.
 
 [MIFARE Classic Tool](https://apkpure.com/es/mifare-classic-tool-mct/de.syss.MifareClassicTool) es una aplicación que utiliza nuestro chip NFC del móvil para realizar todas estas funciones de una manera más simplificada.
 
-Hay una [lista](https://www.shopnfc.com/en/content/7-nfc-compatibility)  de los móviles cuyo chip NFC es compatible con la tecnología de  MIFARE 1k
+Hay una [lista](https://www.shopnfc.com/en/content/7-nfc-compatibility)  de los móviles cuyo chip NFC es compatible con la tecnología de  MIFARE 1k.
+
+![MifareclassicTool](https://github.com/santirn/Clonar-tarjeta-NFC/blob/master/2.jpg)
+
+Esta aplicación nos facilita todo el proceso a 2 escasos botones. 
+
+Cuando compremos la tarjeta la colocamos en la parte trasera de nuestro smartphone (si es que es compatible) y abrimos la app con el NFC activado.
+
+Simplemente le damos a "Read  Tag" para crear el dumpeo con la información de la tarjeta .
+
+Y cuando queramos escribir ese dumpeo en la tarjeta sin viajes le daríamos a "Write tag".
