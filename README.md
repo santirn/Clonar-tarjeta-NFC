@@ -174,7 +174,7 @@ x............................................................|
 Done, 62 of 64 blocks written.
 ````
 
-# Bien, pues aun hay un metodo más facil.
+# Bien, pues aún hay un metodo más facil.
 
 [MIFARE Classic Tool](https://apkpure.com/es/mifare-classic-tool-mct/de.syss.MifareClassicTool) es una aplicación que utiliza nuestro chip NFC del móvil para realizar todas estas funciones de una manera más simplificada.
 
