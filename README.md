@@ -161,7 +161,7 @@ De esta manera podemos gastar los viajes que queramos y cuando nos apetezca solo
 
 Para ello usaremos nfc-mfclassic:
 ````console
-nfc-mfclassic w B 10viajes.dmp 10viajes.dmp
+# nfc-mfclassic w B 10viajes.dmp 10viajes.dmp
 NFC reader: pn532_uart:/dev/ttyUSB0 opened
 Found MIFARE Classic card:
 ISO/IEC 14443A (106 kbps) target:
@@ -174,3 +174,8 @@ x............................................................|
 Done, 62 of 64 blocks written.
 ````
 
+# Bien, pues si esto ha sido fácil, hay otro método mas fácil aun.
+
+[MIFARE Classic Tool](https://apkpure.com/es/mifare-classic-tool-mct/de.syss.MifareClassicTool) es una aplicación que utiliza nuestro chip NFC del móvil para realizar todas estas funciones de una manera más simplificada.
+
+Hay una [lista](https://www.shopnfc.com/en/content/7-nfc-compatibility)  de los móviles cuyo chip NFC es compatible con la tecnología de  MIFARE 1k
